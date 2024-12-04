@@ -12,7 +12,7 @@ A SwiftUI-based iOS application for creating and managing personal notes with Fi
       - User authentication
       - README.md
 
-2. [Md. Abir Rahman (2007026)](https://github.com/abirzishan32)
+2. [Mohammad Abir Rahman (2007026)](https://github.com/abirzishan32)
       - **Contributions**:
       - Main menu view
       - Create note view
