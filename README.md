@@ -24,6 +24,21 @@ A SwiftUI-based iOS application for creating and managing personal notes with Fi
       - Delete notes view
       - Error handling
 
+## Screenshots
+
+<div style = "display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; flrex-gap: 20px; row-gap: 40px;">
+    <img src = "_screenshots/SignUp.png" width = "24%">
+    <img src = "_screenshots/Login.png" width = "24%">
+    <img src = "_screenshots/LoginError.png" width = "24%">
+    <img src = "_screenshots/MainMenu.png" width = "24%">
+    <img src = "_screenshots/CreateNote.png" width = "24%">
+    <img src = "_screenshots/NoteSaved.png" width = "24%">
+    <img src = "_screenshots/NotesList.png" width = "24%">
+    <img src = "_screenshots/DeleteNote.png" width = "24%">
+    <img src = "_screenshots/DeleteNotePopup.png" width = "24%">
+    <img src = "_screenshots/NoteDeletedSuccessfully.png" width = "24%">
+</div>
+
 ## Technologies Used
 
 ### Frameworks & Libraries
