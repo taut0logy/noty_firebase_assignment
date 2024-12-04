@@ -21,8 +21,35 @@ struct FirebaseProjectApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if userManager.isLoading {
+                LoadingView()
+            } else {
+                if userManager.isLoggedIn {
+                    MainMenuView()
+                } else {
+                    AuthView()
+                }
+            }
         }
+    }
+}
+
+class UserManager: ObservableObject {
+    @Published var isLoggedIn = false
+    @Published var isLoading = true
+    
+    init() {
+        checkUserStatus()
+    }
+    
+    private func checkUserStatus() {
+        if let user = Auth.auth().currentUser {
+            isLoggedIn = true
+        } else {
+            isLoggedIn = false
+        }
+
+        isLoading = false
     }
 }
 
